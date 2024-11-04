@@ -1,3 +1,4 @@
+#USER STORIES
 Create
 #Sebagai pengguna, saya ingin dapat menambahkan item baru ke daftar belanja agar saya dapat mencatat barang yang perlu dibeli.
 Read
