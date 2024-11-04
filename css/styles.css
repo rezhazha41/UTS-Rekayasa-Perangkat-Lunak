@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #333;
+    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 20px; /* Tambahkan padding untuk membuat form lebih rapi */
+    border: 1px solid #ddd; /* Berikan batas ringan pada form */
+    border-radius: 5px; /* Buat sudut form menjadi lebih halus */
+    background-color: #fff; /* Latar belakang form putih */
+}
+
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%; 
+    max-width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+.modal {
+    display: none; /* Sembunyikan modal secara default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+    transition: opacity 0.3s ease; /* Transisi untuk opacity */
+}
+
+.modal.show {
+    display: block; /* Tampilkan modal saat ditambahkan kelas show */
+    opacity: 1; /* Opacity penuh */
+}
